@@ -7,7 +7,7 @@ echo 'y : ';
 $number2 = (int)trim(fgets(STDIN));
 
 //入力された数字を比較する
-function greater($number1, $number2): void
+function greater(int $number1, int $number2): void
 {
     if($number1 > $number2) {
         echo 'x > y' . PHP_EOL;
